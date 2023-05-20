@@ -68,7 +68,7 @@ with writer.saving(fig, "fitPlot.mp4", 100):
         writer.grab_frame()
 
     # Add the line fit
-    for xval,yval in zip(xline,xline):
+    for xval,yval in zip(xline,yline):
 
         xLineList.append(xval)
         yLineList.append(yval)
